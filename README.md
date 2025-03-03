@@ -4,11 +4,11 @@
 
 ## :clipboard: İçindekiler
 
-1. [Özellikler](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#%C3%B6zellikler)
-2. [Kurulum](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#kurulum)
-3. [Kullanım](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#kullan%C4%B1m)
-4. [Katkıda Bulunma](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#katk%C4%B1da-bulunma)
-5. [Lisans](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#lisans)
+1. [Özellikler](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#dart-%C3%B6zellikler)
+2. [Kurulum](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#hammer_and_wrench-kurulum)
+3. [Kullanım](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#joystick-kullan%C4%B1m)
+4. [Katkıda Bulunma](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#handshake-katk%C4%B1da-bulunma)
+5. [Lisans](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#scroll-lisans)
 
 ## :dart: Özellikler
 
