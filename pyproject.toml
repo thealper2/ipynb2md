@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipynb2md"
+version = "0.1.0"
+description = "A tool to convert Jupyter Notebooks (.ipynb) to Markdown (.md) files."
+authors = [
+    { name = "Alper Karaca", email = "" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "argparse", 
+]
+
+[project.scripts]
+ipynb2md = "ipynb2md.main:main"
+
+[project.urls]
+Homepage = "https://github.com/thealper2/ipynb2md"
+Repository = "https://github.com/thealper2/ipynb2md"
+Bug Tracker = "https://github.com/thealper2/ipynb2md/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ipynb2md = ["*.md", "*.txt"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 88
+known_first_party = ["ipynb2md"]
