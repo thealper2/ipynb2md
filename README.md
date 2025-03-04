@@ -10,6 +10,8 @@
 4. [Katkıda Bulunma](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#handshake-katk%C4%B1da-bulunma)
 5. [Lisans](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#scroll-lisans)
 
+---
+
 ## :dart: Özellikler
 
 - Jupyter Notebook hücrelerini Markdown formatına dönüştürür.
