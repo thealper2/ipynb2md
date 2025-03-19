@@ -4,11 +4,11 @@
 
 ## :clipboard: Table of Contents
 
-1. [Features](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#%C3%B6zellikler)
-2. [Installation](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#kurulum)
-3. [Usage](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#kullan%C4%B1m)
-4. [Contributing](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#katk%C4%B1da-bulunma)
-5. [License](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#lisans)
+1. [Features](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#dart-features)
+2. [Installation](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#hammer_and_wrench-installation)
+3. [Usage](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#joystick-usage)
+4. [Contributing](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#handshake-contributing)
+5. [License](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#scroll-license)
 
 ## :dart: Features
 
