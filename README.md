@@ -1,58 +1,56 @@
 # ipynb2md - Jupyter Notebook to Markdown Converter
 
-**ipynb2md**, Jupyter Notebook (.ipynb) dosyalarını Markdown (.md) formatına dönüştüren bir Python aracıdır. Bu araç, özellikle Jupyter Notebook'larınızı belgelere veya blog gönderilerine dönüştürmek istediğinizde kullanışlıdır.
+**ipynb2md**, is a Python tool that converts Jupyter Notebook (.ipynb) files into Markdown (.md) format. This tool is particularly useful when you want to convert your Jupyter Notebooks into documents or blog posts.
 
-## :clipboard: İçindekiler
+## :clipboard: Table of Contents
 
-1. [Özellikler](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#dart-%C3%B6zellikler)
-2. [Kurulum](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#hammer_and_wrench-kurulum)
-3. [Kullanım](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#joystick-kullan%C4%B1m)
-4. [Katkıda Bulunma](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#handshake-katk%C4%B1da-bulunma)
-5. [Lisans](https://github.com/thealper2/ipynb2md?tab=readme-ov-file#scroll-lisans)
+1. [Features](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#%C3%B6zellikler)
+2. [Installation](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#kurulum)
+3. [Usage](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#kullan%C4%B1m)
+4. [Contributing](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#katk%C4%B1da-bulunma)
+5. [License](https://github.com/thealper2/ipynb2md/tree/main?tab=readme-ov-file#lisans)
 
----
+## :dart: Features
 
-## :dart: Özellikler
+- Converts Jupyter Notebook cells into Markdown format.
+- Automatically detects code cell languages (Python, R, JavaScript, etc.).
+- Extracts images from the notebook and embeds them into the Markdown file.
+- Properly handles Markdown cells and HTML outputs.
 
-- Jupyter Notebook hücrelerini Markdown formatına dönüştürür.
-- Kod hücrelerini dil türüne göre otomatik algılar (Python, R, JavaScript, vb.).
-- Notebook'taki görselleri çıkarır ve Markdown dosyasına ekler.
-- Markdown hücrelerini ve HTML çıktılarını düzgün bir şekilde işler.
+## :hammer_and_wrench: Installation
 
-## :hammer_and_wrench: Kurulum
-
-Projeyi yerel makinenize klonlayın:
+Clone the project to your local machine:
 
 ```bash
 git clone https://github.com/thealper2/ipynb2md.git
 cd ipynb2md
 ```
 
-Gerekli bağımlılıkları yüklemek için `pyproject.toml` dosyasını kullanın:
+Install the required dependencies using the `pyproject.toml` file:
 
 ```bash
 pip install .
 ```
 
-## :joystick: Kullanım
+## :joystick: Usage
 
-### Komut Satırı Arayüzü (CLI)
+### Command Line Interface (CLI)
 
-Projeyi komut satırından çalıştırmak için `run.py` betiğini kullanabilirsiniz:
+You can run the project from the command line using the `run.py` script:
 
 ```bash
 python run.py path/to/your_notebook.ipynb
 ```
 
-Bu komut, belirtilen Jupyter Notebook dosyasını Markdown formatına dönüştürür ve aynı dizine kaydeder. Çıktı dosyasının adını belirtmek için `-o` veya `--output` seçeneğini kullanabilirsiniz:
+This command converts the specified Jupyter Notebook file into Markdown format and saves it in the same directory. You can use the `-o` or `--output` option to specify the output file name:
 
 ```bash
 python run.py path/to/your_notebook.ipynb -o output_file.md
 ```
 
-### Python Modülü Olarak Kullanım
+### Using as a Python Module
 
-Projeyi bir Python modülü olarak da kullanabilirsiniz:
+You can also use the project as a Python module:
 
 ```python
 from src.ipynb2md.notebook_converter import NotebookConverter
@@ -67,31 +65,16 @@ else:
     print("Dönüştürme başarısız oldu.")
 ```
 
-### Testler
+## :handshake: Contributing
 
-Proje, `unittest` kütüphanesi kullanılarak test edilmiştir. Testleri çalıştırmak için aşağıdaki komutu kullanın:
+If you wish to contribute, please follow these steps:
 
-```bash
-python run_tests.py
-```
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push your branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
 
-Bu komut, `src/tests/` dizinindeki tüm test dosyalarını çalıştırır.
+## :scroll: License
 
-#### Test Dosyaları
-
-- **test_notebook_cell.py**: `NotebookCell` sınıfının metodlarını test eder.
-- **test_notebook_converter.py**: `NotebookConverter` sınıfının metodlarını test eder.
-
-## :handshake: Katkıda Bulunma
-
-Katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
-
-1. Bu depoyu forklayın.
-2. Yeni bir branch oluşturun (`git checkout -b feature/AmazingFeature`).
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`).
-4. Branch'inizi pushlayın (`git push origin feature/AmazingFeature`).
-5. Bir Pull Request açın.
-
-## :scroll: Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
+This project is licensed under the MIT License. For more information, see the LICENSE file.
